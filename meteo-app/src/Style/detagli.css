@@ -1,0 +1,52 @@
+.city-details {
+  background: linear-gradient(135deg, #f8b195, #f67280);
+  color: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.city-header {
+  margin-bottom: 20px;
+}
+
+.city-name {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.temperature {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.detail-card {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.detail-card p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.detail-card h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

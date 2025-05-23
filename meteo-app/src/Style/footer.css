@@ -1,0 +1,14 @@
+footer .container {
+  background: linear-gradient(180deg, rgba(248, 177, 149, 1) 62%, rgba(246, 114, 128, 1) 100%);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
