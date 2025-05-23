@@ -4,8 +4,7 @@ import Mynavbar from "./components/Mynavbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Myhomepage";
 import CityDetails from "./components/MyCityDetails";
-import dotenv from "dotenv";
-dotenv.config();
+
 function App() {
   return (
     <BrowserRouter>
